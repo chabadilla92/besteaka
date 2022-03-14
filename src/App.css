@@ -1,12 +1,21 @@
+html {
+  box-sizing: border-box;
+}
+
+section {
+
+}
+
 nav {
   position: sticky;
   top: 0;
-  height: 10vh;
+  z-index: 100;
 }
 
 ul {
   list-style-type: none;
   background-color: rgb(255,255,255,0.5);
+
 }
 
 main {
@@ -84,5 +93,5 @@ main {
 #footer {
   height: 40vh;
   background-color: darkgray;
-  
+
 }

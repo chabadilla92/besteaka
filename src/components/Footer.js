@@ -2,9 +2,9 @@ import react from 'react';
 
 function Footer() {
     return (
-        <div id="footer">
+        <section id="footer">
             Footer goes here
-        </div>
+        </section>
     )
 };
 

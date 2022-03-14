@@ -2,9 +2,9 @@ import react from 'react';
 
 function Questions() {
     return (
-        <div id="questions">
+        <section id="questions">
             Questions go here
-        </div>
+        </section>
     )
 };
 

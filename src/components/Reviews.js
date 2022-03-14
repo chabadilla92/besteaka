@@ -2,7 +2,7 @@ import react from 'react';
 
 function Reviews() {
     return (
-        <div id="reviews">
+        <section id="reviews">
             <div class="container-fluid">
                 <div class="row">
                     <h3>REVIEWS</h3>
@@ -19,7 +19,7 @@ function Reviews() {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 };
 
