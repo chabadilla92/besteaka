@@ -3,9 +3,10 @@ html {
 }
 
 section {
-
+  height: 100vh;
 }
 
+/* Mobile 280px */
 nav {
   position: sticky;
   top: 0;
@@ -15,17 +16,11 @@ nav {
 ul {
   list-style-type: none;
   background-color: rgb(255,255,255,0.5);
-
-}
-
-main {
-  height: 190vh; 
-  background-color: red;
 }
 
 #headerphoto {
   background-color: blue;
-  height: 90vh;
+  height: 100vh;
 }
 
 #headerphoto > h1 {

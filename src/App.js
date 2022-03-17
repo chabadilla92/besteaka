@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Nav from './components/Nav.js';
 import Main from './components/Main.js';
+import Welcome from './components/Welcome.js';
 import About from './components/About.js';
 import Menu from './components/Menu.js';
 import Reviews from './components/Reviews.js';
@@ -15,6 +16,7 @@ function App() {
     <div class="container-fluid">
       <Nav />
       <Main />
+      <Welcome />
       <About />
       <Menu />
       <Reviews />

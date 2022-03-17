@@ -2,17 +2,32 @@ import react from 'react';
 
 function Nav() {
     return(
-        <nav>
-            <ul class="d-sm-flex justify-content-around p-2">
-                <li class="p-2"><a href="#about">ABOUT</a></li>
-                <li class="p-2"><a href="#menu">MENU</a></li>
-                <li class="p-2"><a href="#reviews">REVIEWS</a></li>
-                <li class="p-2"><a href="#questions">QUESTIONS</a></li>
-                <li class="p-2 mr-auto"><a href="#contact">CONTACT</a></li>
-                <li class="p-2">ONLINE ORDERING</li>
-                <li class="p-2">RESERVATIONS</li>
-            </ul>
-        </nav>
+        <nav class="navbar navbar-light bg-light fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Offcanvas navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close">close</button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          
+        </ul>
+        
+      </div>
+    </div>
+  </div>
+</nav>
     )
 }
 
