@@ -5,10 +5,10 @@ function About() {
         <section id="about">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-sm-6">Photo here</div>
-                    <div class="col-sm-6">
-                        <h3>Be Steak A</h3>
-                        <p>blah blah blah lorem dipsum</p>
+                    <div class="col-md-6" id="aboutphoto"></div>
+                    <div class="col-md-6" id="abouttext">
+                        <h3>Who are we?</h3>
+                        <p>blah blah blah lorem blagajksdkjansdjn asdbjakdn aosdknjas ioansdlkna oinadn alsnd</p>
                     </div>
                 </div>
             </div>

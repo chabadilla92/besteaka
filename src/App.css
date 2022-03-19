@@ -8,9 +8,12 @@ section {
 
 /* Mobile 280px */
 nav {
-  position: sticky;
-  top: 0;
-  z-index: 100;
+
+  height: 10vh;
+}
+
+.navbar-toggler {
+
 }
 
 ul {
@@ -18,8 +21,24 @@ ul {
   background-color: rgb(255,255,255,0.5);
 }
 
+.offcanvas-header > h5 {
+  font-size: 1.2rem;
+}
+
+ul > li > a {
+  font-size: 1.2rem;
+  border: 1px solid black;
+}
+
+#main {
+  height: 90vh;
+  margin-top: 10vh;
+}
+
 #headerphoto {
-  background-color: blue;
+  background-image: linear-gradient(to bottom, transparent, black 75%), url("https://res.cloudinary.com/dd1i00sei/image/upload/v1647649187/besteakaheader_ihm1bb.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
   height: 100vh;
 }
 
@@ -36,24 +55,45 @@ ul {
 }
 
 #welcome > h2 {
-  font-size: 3rem;
-  padding-top: 18%;
+  font-size: 2rem;
+  padding-top: 35%;
+
 }
 
 #welcome > p {
-  padding-left: 25%;
-  padding-right: 25%;
+  font-size: .8rem;
   padding-top: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 #welcome > p:nth-child(3) {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  padding-top: 1em;
 }
 
 #about {
   height: 100vh;
   background-color: yellow;
 }
+
+#aboutphoto {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("https://res.cloudinary.com/dd1i00sei/image/upload/v1647651377/img2_wcdcjw.jpg");
+  border-radius: 50%;
+  height: 35vh;
+  margin-left: 1em;
+  width: 80vw;
+  margin-top: 4em;
+  box-shadow: 10px 5px 5px black;
+}
+
+#abouttext {
+  margin-top: 2em;
+  text-align: center;
+}
+
 
 #menu {
   height: 100vh;
