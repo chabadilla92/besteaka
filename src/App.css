@@ -97,22 +97,34 @@ ul > li > a {
 
 #menu {
   height: 100vh;
-  background-color: gray;
+
   text-align: center;
 }
 
-#menu > h3 {
+#menuphoto {
+  background-image: url("https://res.cloudinary.com/dd1i00sei/image/upload/v1647894762/img3_j4atos.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+
+}
+
+#menuphoto > h3 {
   padding-top: 25%;
   font-size: 3rem;
 }
 
-#menu > p {
+#menuphoto > p {
   padding-top: 2em;
 }
 
 #reviews {
-  height: 100vh;
+  height: 200vh;
   background-color: green;
+}
+
+#reviewsheader {
+  font-size: 3rem;
 }
 
 #questions {
