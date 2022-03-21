@@ -5,26 +5,27 @@ function Reviews() {
         <section id="reviews">
             <div class="container-fluid">
                 <div class="row">
-                    <h3 class="p-3 text-center" id="reviewsheader">REVIEWS</h3>
+                    <h1 class="text-center font-weight-bold" id="reviewsheader">REVIEWS</h1>
+                    <p class="text-center">We do everything we can to provide the best experience</p>
                 </div>
                 <div class="row">
                     <div class="col-md-4 border border-dark p-2 mt-2">
                         <h4><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></h4>
                         <p>Here are the reviews</p>
-                        <h4>Andrew Thai</h4>
+                        <h2>Andrew Thai</h2>
 
 
                     </div>
                     <div class="col-md-4 border border-dark p-2 mt-2">
                         <h4><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></h4>
                         <p>Here are the reviews</p>
-                        <h4>Andrew Thai</h4>
+                        <h2>Andrew Thai</h2>
 
                     </div>
                     <div class="col-md-4 border border-dark p-2 mt-2">
                         <h4><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></h4>
                         <p>Here are the reviews</p>
-                        <h4>Andrew Thai</h4>
+                        <h2>Andrew Thai</h2>
 
                     </div>
                 </div>
@@ -32,19 +33,19 @@ function Reviews() {
                     <div class="col-md-4 border border-dark p-2 mt-2">
                         <h4><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></h4>
                         <p>Here are the reviews</p>
-                        <h4>Andrew Thai</h4>
+                        <h2>Andrew Thai</h2>
 
                     </div>
                     <div class="col-md-4 border border-dark p-2 mt-2">
                         <h4><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></h4>
                         <p>Here are the reviews</p>
-                        <h4>Andrew Thai</h4>
+                        <h2>Andrew Thai</h2>
 
                     </div>
                     <div class="col-md-4 border border-dark p-2 mt-2">
                         <h4><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></h4>
                         <p>Here are the reviews</p>
-                        <h4>Andrew Thai</h4>
+                        <h2>Andrew Thai</h2>
 
                     </div>
                 </div>

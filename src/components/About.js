@@ -7,8 +7,9 @@ function About() {
                 <div class="row">
                     <div class="col-md-6" id="aboutphoto"></div>
                     <div class="col-md-6" id="abouttext">
-                        <h3>Who are we?</h3>
-                        <p>blah blah blah lorem blagajksdkjansdjn asdbjakdn aosdknjas ioansdlkna oinadn alsnd</p>
+                        <h1 class="font-weight-bold">ABOUT US</h1>
+                        <h2>Who are we?</h2>
+                        <p>We are Be.Steak.A. We are hella cool and shit. Yah feel me?</p>
                     </div>
                 </div>
             </div>

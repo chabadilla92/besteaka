@@ -6,15 +6,23 @@ section {
   height: 100vh;
 }
 
+h1, h3, a, .btn {
+  font-family: 'Bodoni Moda', serif;
+}
+
+h2 {
+  font-family: 'Italianno', cursive;
+}
+
+p {
+  font-family: 'Jost', sans-serif;
+}
+
 /* Mobile 280px */
 nav {
-
   height: 10vh;
 }
 
-.navbar-toggler {
-
-}
 
 ul {
   list-style-type: none;
@@ -28,6 +36,10 @@ ul {
 ul > li > a {
   font-size: 1.2rem;
   border: 1px solid black;
+}
+
+#welcome > h1 {
+
 }
 
 #main {
@@ -61,20 +73,20 @@ ul > li > a {
 }
 
 #welcome > p {
-  font-size: .8rem;
+  font-size: .9rem;
   padding-top: 2em;
   padding-left: 2em;
   padding-right: 2em;
 }
 
-#welcome > p:nth-child(3) {
-  font-size: 1.2rem;
+#welcome > h2 {
+  font-size: 1.5rem;
   padding-top: 1em;
 }
 
 #about {
   height: 100vh;
-  background-color: yellow;
+
 }
 
 #aboutphoto {
@@ -90,32 +102,45 @@ ul > li > a {
 }
 
 #abouttext {
-  margin-top: 2em;
+  margin-top: 4em;
   text-align: center;
+}
+
+#abouttext > h1 {
+  color: rgb(150, 40, 27);
+}
+
+#abouttext > p {
+  margin-top: 3em;
 }
 
 
 #menu {
   height: 100vh;
-
   text-align: center;
 }
 
-#menuphoto {
-  background-image: url("https://res.cloudinary.com/dd1i00sei/image/upload/v1647894762/img3_j4atos.jpg");
+#menubackground {
+  background-color: gray;
   background-position: center;
   background-repeat: no-repeat;
   height: 100vh;
-
 }
 
-#menuphoto > h3 {
-  padding-top: 25%;
-  font-size: 3rem;
+#menubackground > h3 {
+  padding-top: 50%;
+  font-size: 2rem;
 }
 
-#menuphoto > p {
-  padding-top: 2em;
+#menubackground > p {
+  padding-top: 4em;
+  padding-bottom: 2em;
+}
+
+#menuphoto {
+  background-image: url("https://res.cloudinary.com/dd1i00sei/image/upload/v1647899314/Dinner_Composed_d9c5yk.jpg");
+  background-repeat: no-repeat;
+  background-position: cover;
 }
 
 #reviews {
@@ -124,7 +149,7 @@ ul > li > a {
 }
 
 #reviewsheader {
-  font-size: 3rem;
+  padding-top: 3em;
 }
 
 #questions {
