@@ -8,7 +8,7 @@ function Questions() {
             <div class="accordion container-fluid" id="accordionExample">
                 <div class="accordion-item">
                     <h1 class="accordion-header" id="headingOne">
-                        <button class="accordion-button border border-dark rounded-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <button class="accordion-button border border-dark rounded-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                         BEST WAY TO DINE AT BE.STEAK.A ?
                         </button>
                     </h1>
@@ -20,7 +20,7 @@ function Questions() {
                 </div>
                 <div class="accordion-item">
                     <h1 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button collapsed border border-dark rounded-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <button class="accordion-button collapsed border border-dark rounded-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                         QUESTION #2 ?
                         </button>
                     </h1>
@@ -32,8 +32,8 @@ function Questions() {
                 </div>
                 <div class="accordion-item">
                     <h1 class="accordion-header" id="headingThree">
-                        <button class="accordion-button collapsed border border-dark rounded-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        This is the third question
+                        <button class="accordion-button collapsed border border-dark rounded-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        QUESTION 3
                         </button>
                     </h1>
                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
@@ -44,8 +44,8 @@ function Questions() {
                 </div>
                 <div class="accordion-item">
                     <h1 class="accordion-header" id="headingFour">
-                        <button class="accordion-button collapsed border border-dark rounded-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                        This is the fourth question
+                        <button class="accordion-button collapsed border border-dark rounded-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        QUESTION 4
                         </button>
                     </h1>
                     <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
@@ -56,8 +56,8 @@ function Questions() {
                 </div>
                 <div class="accordion-item">
                     <h1 class="accordion-header" id="headingFive">
-                        <button class="accordion-button collapsed border border-dark rounded-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                        This is the Fifth question
+                        <button class="accordion-button collapsed border border-dark rounded-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        QUESTION 5
                         </button>
                     </h1>
                     <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">

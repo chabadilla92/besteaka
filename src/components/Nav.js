@@ -2,14 +2,15 @@ import react from 'react';
 
 function Nav() {
     return (
-        <nav class="navbar navbar-expand-md navbar-light fixed-top">
+        <nav class="navbar navbar-expand-md fixed-top">
             <div class="container-fluid">
-                <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                    <span class="navbar-toggler-icon"></span>
+                <button class="navbar-toggler border border-0 p-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <i id="navbar-toggler-icon" class="bi bi-list"></i>
+
                 </button>
                 <div class="offcanvas offcanvas-start" style={{height: "85vh", width: "80vw"}} tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header">
-                        <h1 class="offcanvas-title font-weight-bold" id="offcanvasNavbarLabel">BE.STEAK.A</h1>
+                        <h1 class="offcanvas-title font-weight-bold" id="offcanvasNavbarLabel">BE.STÉAK.Ă</h1>
                     </div>
                     <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">

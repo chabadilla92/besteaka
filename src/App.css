@@ -18,9 +18,28 @@ p {
   font-family: 'Jost', sans-serif;
 }
 
+a > i {
+  color: black;
+  text-decoration: none;
+}
+
 /* Mobile 280px */
 nav {
   height: 10vh;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+#navbar-toggler-icon {
+  color: rgb(150, 40, 27);
+  font-size: 2rem;
+
+}
+
+.offcanvas-title {
+  border-bottom: 2px solid rgb(150, 40, 27);
 }
 
 
@@ -33,14 +52,17 @@ ul {
   font-size: 1.2rem;
 }
 
+.navbar-nav .nav-link {
+  color: black;
+  
+}
+
 ul > li > a {
   font-size: 1.2rem;
   border: 1px solid black;
 }
 
-#welcome > h1 {
 
-}
 
 #main {
   height: 90vh;
@@ -121,32 +143,41 @@ ul > li > a {
 }
 
 #menubackground {
-  background-color: gray;
+  
+  background-image:
+    linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)),
+    url("https://res.cloudinary.com/dd1i00sei/image/upload/v1648507934/IMG_8648_ne8btt.jpg");
   background-position: center;
-  background-repeat: no-repeat;
+
   height: 100vh;
 }
 
-#menubackground > h3 {
-  padding-top: 50%;
-  font-size: 2rem;
+#menubox {
+  margin-top: 25%;
+
+  height: 40vh;
+  padding-top: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+
+  transform: translateY(10em);
 }
 
-#menubackground > p {
-  padding-top: 4em;
+#menubox > h1 {
+  color: white;
+
+}
+
+#menubox > p {
+  padding-top: 2em;
   padding-bottom: 2em;
+  color: white;
 }
 
-#menuphoto {
-  background-image: url("https://res.cloudinary.com/dd1i00sei/image/upload/v1647899314/Dinner_Composed_d9c5yk.jpg");
-  background-repeat: no-repeat;
-  background-position: cover;
+#menubox > button {
+  color: white;
 }
 
-#reviews {
-
-
-}
 
 #reviewsheader {
   padding-top: 3em;
@@ -162,12 +193,8 @@ ul > li > a {
   color: rgb(150, 40, 27);
 }
 
-.accordion-button {
-
-}
-
 .accordion-button:focus {
-  box-shadow: 0;
+  box-shadow: none;
 }
 
 .accordion-item:first-of-type .accordion-button {
@@ -182,13 +209,29 @@ h1 > .accordion-button:not(.collapsed) {
 
 
 
-#contact {
+#contact > h1 {
+  color: rgb(150, 40, 27);
+}
 
-  background-color: blue;
+#contactheader {
+  font-size: 1rem;
 }
 
 #footer {
-  height: 40vh;
-  background-color: darkgray;
+  text-align: center;
+  padding: 3em;
+  border-top: 1px solid black;
+}
+
+#footerbutton {
+  border: 1px solid black;
+  font-size: 1rem;
+  text-decoration: none;
+  padding: .3em;
+  padding-left: .8em;
+  padding-right: .8em;
+  color: black;
+  color: rgb(150, 40, 27);
 
 }
+
