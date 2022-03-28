@@ -3,7 +3,7 @@ import react from 'react';
 function Reviews() {
     return (
         <section id="reviews">
-            <div class="container-fluid">
+            <div class="container-fluid mb-5">
                 <div class="row">
                     <h1 class="text-center font-weight-bold" id="reviewsheader">REVIEWS</h1>
                     <p class="text-center">Here's what some of our guests had to say about us</p>
@@ -47,7 +47,7 @@ All around a superb experience!</p>
                         <h2>April Y.</h2>
 
                     </div>
-                    <div class="col-md-4 border border-dark p-2 mt-2">
+                    <div class="col-md-4 border border-dark p-2 mt-2 mb-2">
                         <h4><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></h4>
                         <p>OH MY GOD I LOVE THIS PLACE! Their customer service is top notch.</p>
                         <h2>Amy P.</h2>

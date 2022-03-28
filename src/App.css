@@ -3,7 +3,7 @@ html {
 }
 
 section {
-  height: 100vh;
+
 }
 
 h1, h3, a, .btn {
@@ -144,7 +144,7 @@ ul > li > a {
 }
 
 #reviews {
-  height: 400vh;
+
 
 }
 
@@ -154,12 +154,36 @@ ul > li > a {
 }
 
 #questions {
-  height: 100vh;
-  background-color: magenta
+
+
 }
 
+#questions > h1 {
+  color: rgb(150, 40, 27);
+}
+
+.accordion-button {
+
+}
+
+.accordion-button:focus {
+  box-shadow: 0;
+}
+
+.accordion-item:first-of-type .accordion-button {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+h1 > .accordion-button:not(.collapsed) {
+  color: black;
+  background-color: white;
+}
+
+
+
 #contact {
-  height: 100vh;
+
   background-color: blue;
 }
 
