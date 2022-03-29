@@ -8,7 +8,7 @@ function Nav() {
                     <i id="navbar-toggler-icon" class="bi bi-list"></i>
 
                 </button>
-                <div class="offcanvas offcanvas-start" style={{height: "85vh", width: "80vw"}} tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas offcanvas-start" style={{ width: "80vw"}} tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header">
                         <h1 class="offcanvas-title font-weight-bold" id="offcanvasNavbarLabel">BE.STÉAK.Ă</h1>
                     </div>

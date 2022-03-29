@@ -2,10 +2,6 @@ html {
   box-sizing: border-box;
 }
 
-section {
-
-}
-
 h1, h3, a, .btn {
   font-family: 'Bodoni Moda', serif;
 }
@@ -35,11 +31,14 @@ nav {
 #navbar-toggler-icon {
   color: rgb(150, 40, 27);
   font-size: 2rem;
-
 }
 
 .offcanvas-title {
   border-bottom: 2px solid rgb(150, 40, 27);
+}
+
+#offcanvasNavbar {
+  height: 85vh;
 }
 
 
@@ -54,15 +53,12 @@ ul {
 
 .navbar-nav .nav-link {
   color: black;
-  
 }
 
 ul > li > a {
   font-size: 1.2rem;
   border: 1px solid black;
 }
-
-
 
 #main {
   height: 90vh;
@@ -91,7 +87,6 @@ ul > li > a {
 #welcome > h2 {
   font-size: 2rem;
   padding-top: 35%;
-
 }
 
 #welcome > p {
@@ -108,7 +103,6 @@ ul > li > a {
 
 #about {
   height: 100vh;
-
 }
 
 #aboutphoto {
@@ -148,18 +142,15 @@ ul > li > a {
     linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)),
     url("https://res.cloudinary.com/dd1i00sei/image/upload/v1648507934/IMG_8648_ne8btt.jpg");
   background-position: center;
-
   height: 100vh;
 }
 
 #menubox {
   margin-top: 25%;
-
   height: 40vh;
   padding-top: 1em;
   margin-left: 1em;
   margin-right: 1em;
-
   transform: translateY(10em);
 }
 
@@ -184,11 +175,6 @@ ul > li > a {
   color: rgb(150, 40, 27);
 }
 
-#questions {
-
-
-}
-
 #questions > h1 {
   color: rgb(150, 40, 27);
 }
@@ -206,8 +192,6 @@ h1 > .accordion-button:not(.collapsed) {
   color: black;
   background-color: white;
 }
-
-
 
 #contact > h1 {
   color: rgb(150, 40, 27);
@@ -232,6 +216,57 @@ h1 > .accordion-button:not(.collapsed) {
   padding-right: .8em;
   color: black;
   color: rgb(150, 40, 27);
-
 }
 
+@media screen and (min-width:360px) {
+  #offcanvasNavbar {
+    height: 75vh;
+  }
+
+  #aboutphoto {
+    height: 40vh;
+    margin-left: 1.3em;
+  }
+}
+
+@media screen and (min-width:375px) {
+  #offcanvasNavbar {
+    height: 85vh;
+  }
+
+  #aboutphoto {
+  height: 45vh;
+  margin-left: 1.5em;
+}
+}
+
+@media screen and (min-width:390px) {
+  #offcanvasNavbar {
+    height: 65vh;
+  }
+  
+  #headerphoto {
+    background-image: linear-gradient(to bottom, transparent, black 60%), url(https://res.cloudinary.com/dd1i00sei/image/upload/v1647649187/besteakaheader_ihm1bb.jpg);
+  }
+
+  #aboutphoto {
+    height: 39vh;
+  }
+}
+
+@media screen and (min-width:412px) {  
+  #offcanvasNavbar {
+    height: 62vh;
+  }
+}
+
+@media screen and (min-width:540px) {  
+  #offcanvasNavbar {
+    height: 77vh;
+  }
+
+  #aboutphoto {
+    height: 60vh;
+    margin-left: 2.5em;
+  }
+}
