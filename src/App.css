@@ -24,6 +24,8 @@ nav {
   height: 10vh;
 }
 
+
+
 .navbar-toggler:focus {
   box-shadow: none;
 }
@@ -38,8 +40,11 @@ nav {
 }
 
 #offcanvasNavbar {
-  height: 85vh;
+  height: 68vh;
+  width: 80vw;
 }
+
+
 
 
 ul {
@@ -59,6 +64,17 @@ ul > li > a {
   font-size: 1.2rem;
   border: 1px solid black;
 }
+
+.bi-three-dots-vertical {
+  color: rgb(150, 40, 27);
+  font-size: 1.2rem;
+}
+
+#offcanvasRight {
+    height: 30vh;
+    width: 75vw;
+}
+
 
 #main {
   height: 90vh;
@@ -220,7 +236,12 @@ h1 > .accordion-button:not(.collapsed) {
 
 @media screen and (min-width:360px) {
   #offcanvasNavbar {
-    height: 75vh;
+    height: 60vh;
+    width: 60vw;
+  }
+
+  #offcanvasRight {
+    width: 60vw;
   }
 
   #aboutphoto {
@@ -231,7 +252,7 @@ h1 > .accordion-button:not(.collapsed) {
 
 @media screen and (min-width:375px) {
   #offcanvasNavbar {
-    height: 85vh;
+    height: 66vh;
   }
 
   #aboutphoto {
@@ -242,7 +263,11 @@ h1 > .accordion-button:not(.collapsed) {
 
 @media screen and (min-width:390px) {
   #offcanvasNavbar {
-    height: 65vh;
+    height: 55vh;
+  }
+
+  #offcanvasRight {
+    height: 25vh;
   }
   
   #headerphoto {
@@ -256,17 +281,213 @@ h1 > .accordion-button:not(.collapsed) {
 
 @media screen and (min-width:412px) {  
   #offcanvasNavbar {
-    height: 62vh;
+    height: 50vh;
   }
 }
 
 @media screen and (min-width:540px) {  
   #offcanvasNavbar {
-    height: 77vh;
+    height: 65vh;
+  }
+
+  #offcanvasRight {
+    height: 30vh;
+    width: 40vw;
   }
 
   #aboutphoto {
     height: 60vh;
     margin-left: 2.5em;
   }
+}
+
+/* TABLET */
+@media screen and (min-width:768px) {  
+  #offcanvasNavbar {
+    height: 45vh;
+    width: 40vw;
+  }
+
+  #offcanvasRight {
+    height: 20vh;
+
+  }
+
+
+
+  #welcome > h1, #abouttext > h1, #menubox > h1, #reviewsheader, #questions > h1, #contact > h1 {
+    font-size: 3rem;
+  }
+
+  #welcome > p, #abouttext > p, #menubox > p, #menubox > button, #footerbutton, #reviewsp, #questions > p {
+    font-size: 1.2rem;
+  }
+
+  #welcome {
+    height: auto;
+    padding-bottom: 12em;
+  }
+
+  #welcome > h2, #abouttext > h2 {
+    font-size: 2rem;
+  }
+
+  #about {
+    height: auto;
+
+  }
+
+  #aboutphoto {
+    margin: 0;
+    width: 40vw;
+    height: auto;
+    border-right: 2px solid black;
+    margin-top: 9em;
+    margin-left: 3em;
+    margin-bottom: 9em;
+  }
+
+  #abouttext {
+    margin: 0;
+    padding: 2em;
+    margin-top: 9em;
+    margin-bottom: 9em;
+  }
+
+  #menubox {
+    padding-top: 13em;
+    margin-top: 0;
+  }
+
+  #reviewsheader {
+    padding-top: 1em;
+  }
+
+  #reviewscol1 {
+    margin-left: 3em;
+  }
+
+  #reviewscol2 {
+    margin-left: 2em;
+  }
+
+  #contactheader {
+    font-size: 1.4rem;
+  }
+
+  #navbar-toggler-icon {
+    font-size: 2.5rem;
+  }
+  
+  #headerphoto {
+    background-image: linear-gradient(to bottom, transparent, black 53.5%), url(https://res.cloudinary.com/dd1i00sei/image/upload/v1647649187/besteakaheader_ihm1bb.jpg);
+  }
+}
+
+@media screen and (min-width:820px) {  
+  #offcanvasNavbar {
+    height: 47vh;
+  }
+  
+  #headerphoto {
+    background-image: linear-gradient(to bottom, transparent, black 47%), url(https://res.cloudinary.com/dd1i00sei/image/upload/v1647649187/besteakaheader_ihm1bb.jpg);
+  }
+
+  #reviewscol1 {
+    margin-left: 3.3em;
+  }
+
+  #aboutphoto {
+    width: 37vw;
+    margin-left: 4em;
+  }
+}
+
+@media screen and (min-width:912px) {  
+  #headerphoto {
+    background-image: linear-gradient(to bottom, transparent, black 40%), url(https://res.cloudinary.com/dd1i00sei/image/upload/v1647649187/besteakaheader_ihm1bb.jpg);
+    background-position: cover;
+  }
+
+  #aboutphoto {
+    width: 34vw;
+    margin-left: 5em;
+  }
+
+  #offcanvasNavbar {
+    height: 42vh;
+  }
+}
+
+@media screen and (min-width:1024px) {  
+
+h4:hover {
+  color:rgb(150, 40, 27);
+}
+
+.navbar {
+  background: transparent;
+}
+
+.active {
+  background: white;
+  
+}
+
+#offcanvasNavbar {
+  height: auto;
+}
+
+#offcanvasRight {
+  height: auto;
+}
+
+.offcanvas-body > ul {
+  background-color: rgba(255,255,255,0)
+}
+
+ul > li > a {
+  border: none;
+  font-size: 1rem;
+  text-decoration: none;
+  border: 1px solid rgb(0,0,0,0);
+  margin-right: .5em;
+}
+
+ul > li > a:hover {
+  border: 1px solid rgb(150,40,27,1);
+}
+
+.navbar-nav .nav-link:hover {
+  color: black;
+}
+
+#offcanvasRight > .offcanvas-body {
+  justify-content: end;
+}
+
+#closebutton {
+  display: none;
+}
+
+#about {
+  height: 100vh;
+}
+
+#aboutphoto {
+  height: 400px;
+  margin: 0;
+  width: 400px;
+  margin-top: 11em;
+  margin-left: 4em;
+
+}
+
+#abouttext {
+  margin: 0;
+  padding-top: 6em;
+  margin-top: 10em;
+
+}
+
 }

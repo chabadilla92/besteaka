@@ -4,7 +4,7 @@ function Contact() {
     return (
         <section id="contact">
             <h1 class="text-center p-2">CONTACT</h1>
-            <div class="row p-3">
+            <div class="row p-3 text-md-center">
                 <div class="col-md-6 py-3">
                     <h3><a href="https://www.facebook.com/BEST%C3%89AK%C4%82-364044414093165/"><i class="bi bi-facebook"></i></a></h3>
                     <h3 id="contactheader" class="py-2">FACEBOOK</h3>
@@ -16,7 +16,7 @@ function Contact() {
                     <p>Check us out on Instagram!</p>
                 </div>
             </div>
-            <div class="row p-3">
+            <div class="row p-3 text-md-center">
                 <div class="col-md-6 py-3">
                     <h3><i class="bi bi-house-door"></i></h3>
                     <h3 id="contactheader">ADDRESS</h3>
@@ -28,7 +28,7 @@ function Contact() {
                     <p>408-963-2092</p>
                 </div>
             </div>
-            <div class="row p-3">
+            <div class="row p-3 text-md-center">
                 <h3><i class="bi bi-clock"></i></h3>
                 <h3 id="contactheader">HOURS</h3>
                 <p>M-THU: 5 - 9 PM<br />
