@@ -52,7 +52,7 @@ function Questions() {
               aria-expanded="false"
               aria-controls="collapseTwo"
             >
-              QUESTION #2 ?
+              QUESTION 2
             </button>
           </h1>
           <div

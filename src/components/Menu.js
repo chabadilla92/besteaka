@@ -6,15 +6,37 @@ function Menu() {
       <div id="menubackground">
         <div id="menubox">
           <h1 class="font-weight-bold">MENU</h1>
-          <p>Check out our menu below</p>
+          <p>Check out our menus below</p>
+          <div class="mb-md-5">
           <button
             type="button"
             class="btn btn-outline-light rounded-0"
             data-bs-toggle="modal"
             data-bs-target="#exampleModal"
           >
-            VIEW DISHES
+            LUNCH
           </button>
+          </div>
+          <div class="mb-md-5">
+          <button
+            type="button"
+            class="btn btn-outline-light rounded-0"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            BRUNCH
+          </button>
+          </div>
+          <div>
+          <button
+            type="button"
+            class="btn btn-outline-light rounded-0"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            DINNER
+          </button>
+          </div>
         </div>
 
         <div

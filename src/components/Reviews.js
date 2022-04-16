@@ -12,7 +12,7 @@ function Reviews() {
             Here's what some of our guests had to say about us
           </p>
         </div>
-        <div class="row">
+        <div class="row justify-content-center">
           <div id="reviewscol1" class="col-md-5 my-2 border border-dark p-4">
             <h4>
               <i class="bi bi-star-fill" id="star"></i>
@@ -29,7 +29,7 @@ function Reviews() {
               have gotten a little teary eyed. The truffle pasta was also great.
               I loved the escargot steak and the aged fillet.
             </p>
-            <h2>Natassia G.</h2>
+            <h2><a href="https://www.yelp.com/user_details?userid=6vDyJqT1kXsAiI4VqJSA0w">Natassia G.</a></h2>
           </div>
           <div id="reviewscol2" class="col-md-5 my-2 border border-dark p-4">
             <h4>
@@ -43,7 +43,7 @@ function Reviews() {
               2nd time here for the new pasta SOPRESSINI!! Love it!! Small
               portion homemade FRESH pasta and very buttery.
             </p>
-            <h2>Cherry W.</h2>
+            <h2><a href="https://www.yelp.com/user_details?userid=hUm8eJoohfakLI4ZDYA6Vw">Cherry W.</a></h2>
           </div>
           <div id="reviewscol1" class="col-md-5 my-2 border border-dark p-4">
             <h4>
@@ -64,7 +64,7 @@ function Reviews() {
               martini, which came in a glass, on a tray, with a mirco-pitcher of
               more "dirty" juice. All around a superb experience!
             </p>
-            <h2>Trevor N.</h2>
+            <h2><a href="https://www.yelp.com/user_details?userid=w2RhnCJnUwZYbIn1KRGtRA">Trevor N.</a></h2>
           </div>
 
           <div id="reviewscol2" class="col-md-5 my-2 border border-dark p-4">
@@ -80,7 +80,7 @@ function Reviews() {
               My new favorite restaurant in the South Bay I would say for sure.
               I highly recommend this place to anyone.
             </p>
-            <h2>Mark P.</h2>
+            <h2><a href="https://www.yelp.com/user_details?userid=YuknI-e5D3BR80-gWPVJ9Q">Mark P.</a></h2>
           </div>
           <div id="reviewscol1" class="col-md-5 my-2 border border-dark p-4">
             <h4>
@@ -94,7 +94,7 @@ function Reviews() {
               Top-notch service, cool ambiance, and great menu. This is
               definitely going onto our list of great special-occasion places.
             </p>
-            <h2>April Y.</h2>
+            <h2><a href="https://www.yelp.com/user_details?userid=bM_m8BU-8Qjb5Qe9UNHhvg">April Y.</a></h2>
           </div>
           <div
             id="reviewscol2"
@@ -110,7 +110,7 @@ function Reviews() {
             <p>
               OH MY GOD I LOVE THIS PLACE! Their customer service is top notch.
             </p>
-            <h2>Amy P.</h2>
+            <h2><a href="https://www.yelp.com/user_details?userid=TO5mpGzfQ8EUw6XZHyJ5JA">Amy P.</a></h2>
           </div>
         </div>
         <div class="row"></div>
