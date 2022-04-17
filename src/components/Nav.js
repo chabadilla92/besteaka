@@ -13,31 +13,31 @@ function Nav() {
     console.log('yScroll:', yScroll);
     if (yScroll >= 114 && window.screen.width >= 1024) {
       setNavState(true);
-      if (yScroll >= 1781 && yScroll < 2974) {
+      if (yScroll >= 1307 && yScroll < 1866) {
         setAbout(true);
       } else {
         setAbout(false);
       }
 
-      if (yScroll >= 2975 && yScroll < 4166) {
+      if (yScroll >= 1867 && yScroll < 2519) {
         setMenu(true);
       } else {
         setMenu(false);
       }
 
-      if (yScroll >= 4167 && yScroll < 5300) {
+      if (yScroll >= 2520 && yScroll < 3741) {
         setReviews(true);
       } else {
         setReviews(false);
       }
 
-      if (yScroll >= 5301 && yScroll < 5548) {
+      if (yScroll >= 3742 && yScroll < 4336) {
         setQuestions(true);
       } else {
         setQuestions(false);
       }
 
-      if (yScroll >= 5549) {
+      if (yScroll >= 4337) {
         setContact(true);
       } else {
         setContact(false);
@@ -47,12 +47,14 @@ function Nav() {
     }
   };
 
-  // Reviews: 4167
-  // Questions 5390
-  // Contact 5569
+  // About: 1307
+  // Menu: 1867
+  // Reviews: 2520
+  // Questions: 3742
+  // Contact: 4337
 
   window.addEventListener('scroll', changeBackground);
-  //   window.addEventListener("scroll", console.log(window.scrollY))
+    // window.addEventListener("scroll", console.log(window.scrollY))
 
   return (
     <nav class='navbar navbar-expand-lg fixed-top bg-white'>

@@ -418,12 +418,14 @@ h1 > .accordion-button:not(.collapsed) {
 @media screen and (min-width: 1024px) {
   #main {
     background-image: none;
+    margin-top: 0;
+    height: 110vh;
   }
 
   #welcome {
-    background-color: white;
-    color: black;
-    margin-top: 10em;
+    background-color: black;
+    color: white;
+
   }
   
   h4:hover {
@@ -483,21 +485,26 @@ h1 > .accordion-button:not(.collapsed) {
   }
 
   #about {
-    height: 100vh;
+    padding: 5em;
+
   }
 
   #aboutphoto {
     height: 400px;
-    margin: 0;
+    margin-top: 0;
     width: 400px;
 
 
   }
 
   #abouttext {
-    margin: 0;
-    padding-top: 6em;
+    margin-top: 0;
 
+
+  }
+
+  #menubox {
+    transform: none;
   }
 }
 
