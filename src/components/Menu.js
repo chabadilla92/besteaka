@@ -7,7 +7,7 @@ function Menu() {
         <div id="menubox">
           <h1 class="font-weight-bold">MENU</h1>
           <p>Check out our menus below</p>
-          <div class="mb-md-5">
+          <div class="mb-lg-5">
           <button
             type="button"
             class="btn btn-outline-light rounded-0"
@@ -17,7 +17,7 @@ function Menu() {
             LUNCH
           </button>
           </div>
-          <div class="mb-md-5">
+          <div class="mb-lg-5">
           <button
             type="button"
             class="btn btn-outline-light rounded-0"

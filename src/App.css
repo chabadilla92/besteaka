@@ -486,14 +486,14 @@ h1 > .accordion-button:not(.collapsed) {
     height: 400px;
     margin: 0;
     width: 400px;
-    margin-top: 25em;
+
 
   }
 
   #abouttext {
     margin: 0;
     padding-top: 6em;
-    margin-top: 24em;
+
   }
 }
 
